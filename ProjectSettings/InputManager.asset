@@ -263,7 +263,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Zoom
-    descriptiveName: 
+    descriptiveName: To Zoom the view
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: v
@@ -279,7 +279,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Helicopter
-    descriptiveName: 
+    descriptiveName: calling Helicopter
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: h

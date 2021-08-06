@@ -33,7 +33,7 @@ public class Helicopter : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag=="Helipad")
+        if(collision.gameObject.tag=="Ground")
         {
             helicopterPosition.transform.position = this.transform.position;
 
