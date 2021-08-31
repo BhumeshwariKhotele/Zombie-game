@@ -22,7 +22,7 @@ public class Helicopter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("Helicopter") && isCalledHelicopter)
+        if(Input.GetButton("Helicopter") && !isCalledHelicopter)
         {
             isCalledHelicopter = true;
             Debug.Log("Helicopter called");
